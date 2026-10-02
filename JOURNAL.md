@@ -14,16 +14,16 @@
 
 ## Contents
 
-1. [2026-10-02 — RP2040 core done — 5 hours, and it should boot](#2026-10-02-rp2040-core-done-5-hours-and-it-should-boot)
+1. [2026-10-02 — RP2040 core done :  5 hours, and it should boot](#2026-10-02-rp2040-core-done-5-hours-and-it-should-boot)
 2. [2026-10-02 — Analog front end : the ADS1220, the whole point of this thing](#2026-10-02-analog-front-end-the-ads1220-the-whole-point-of-t)
 
 ## Design
 
-### 2026-10-02 — RP2040 core done — 5 hours, and it should boot
+### 2026-10-02 — RP2040 core done :  5 hours, and it should boot
 
 **5h**
 
-RP2040 core done — 5 hours, and it should boot
+RP2040 core done :  5 hours, and it should boot
 
 Spent this whole sitting (~5h) drawing the brain of Hushlog: the RP2040 plus everything it needs to actually power up and run, before any of the logging hardware goes on. The RP2040 is fiddly because it doesn't run off a single voltage. It has a regulator built in, so you feed 3.3V into VREG_VIN, it puts out 1.1V at VREG_VOUT, and you have to loop that 1.1V back into DVDD yourself to power the core. Getting that wrong kills the chip, so that's where I was most careful.
 
