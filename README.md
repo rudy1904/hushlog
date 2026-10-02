@@ -13,7 +13,7 @@ The thing I actually care about is keeping it **quiet**: a separate low-noise su
 Design in progress for the Hack Club Half Life warm-up (Tier 2).
 
 - [x] RP2040 core schematic — MCU, external QSPI flash, 12 MHz crystal, USB-C + LDO power, BOOTSEL/RESET, SWD. Power rails verified (VREG_VIN confirmed on +3.3V).
-- [ ] ADS1220 analog front end (24-bit ADC, separate analog LDO, input filtering)
+- [x] ADS1220 analog front end — two differential channels, computed input filters, SPI on hardware SPI0, separate low-noise LDO (AVDD isolated from digital rail, verified)
 - [ ] microSD, OLED, screw terminals
 - [ ] PCB layout (2-layer, analog/digital separation, solid ground pour)
 - [ ] Enclosure (3D-printed)

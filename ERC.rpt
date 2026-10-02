@@ -1,4 +1,4 @@
-ERC report (2026-10-02T16:21:17, Encoding UTF8)
+ERC report (2026-10-02T22:34:27, Encoding UTF8)
 Report includes: Errors, Warnings
 
 ***** Sheet /
@@ -8,21 +8,6 @@ Report includes: Errors, Warnings
 [pin_not_connected]: Pin not connected
     ; error
     @(6800 mils, 2450 mils): Symbol U1 Pin 3 [GPIO1, Bidirectional, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(6800 mils, 2550 mils): Symbol U1 Pin 4 [GPIO2, Bidirectional, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(6800 mils, 2650 mils): Symbol U1 Pin 5 [GPIO3, Bidirectional, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(6800 mils, 2750 mils): Symbol U1 Pin 6 [GPIO4, Bidirectional, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(6800 mils, 2850 mils): Symbol U1 Pin 7 [GPIO5, Bidirectional, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(6800 mils, 2950 mils): Symbol U1 Pin 8 [GPIO6, Bidirectional, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(6800 mils, 3050 mils): Symbol U1 Pin 9 [GPIO7, Bidirectional, Line]
@@ -92,6 +77,15 @@ Report includes: Errors, Warnings
 [pin_not_connected]: Pin not connected
     ; error
     @(6800 mils, 5350 mils): Symbol U1 Pin 41 [GPIO29/ADC3, Bidirectional, Line]
+[lib_symbol_mismatch]: Symbol 'Screw_Terminal_01x02' doesn't match copy in library 'Connector'
+    ; warning
+    @(1000 mils, 7500 mils): Symbol J3 [Screw_Terminal_01x02]
+[lib_symbol_mismatch]: Symbol 'Screw_Terminal_01x02' doesn't match copy in library 'Connector'
+    ; warning
+    @(1000 mils, 8300 mils): Symbol J5 [Screw_Terminal_01x02]
+[lib_symbol_mismatch]: Symbol 'Screw_Terminal_01x02' doesn't match copy in library 'Connector'
+    ; warning
+    @(1000 mils, 9200 mils): Symbol J4 [Screw_Terminal_01x02]
 [lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
     ; warning
     @(1300 mils, 1450 mils): Symbol C10 [C]
@@ -101,6 +95,18 @@ Report includes: Errors, Warnings
 [lib_symbol_mismatch]: Symbol 'R' doesn't match copy in library 'Device'
     ; warning
     @(1500 mils, 5900 mils): Symbol R6 [R]
+[lib_symbol_mismatch]: Symbol 'R' doesn't match copy in library 'Device'
+    ; warning
+    @(1650 mils, 7500 mils): Symbol R9 [R]
+[lib_symbol_mismatch]: Symbol 'R' doesn't match copy in library 'Device'
+    ; warning
+    @(1650 mils, 7800 mils): Symbol R10 [R]
+[lib_symbol_mismatch]: Symbol 'R' doesn't match copy in library 'Device'
+    ; warning
+    @(1650 mils, 9200 mils): Symbol R11 [R]
+[lib_symbol_mismatch]: Symbol 'R' doesn't match copy in library 'Device'
+    ; warning
+    @(1650 mils, 9500 mils): Symbol R12 [R]
 [lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
     ; warning
     @(1700 mils, 1450 mils): Symbol C9 [C]
@@ -115,7 +121,25 @@ Report includes: Errors, Warnings
     @(2000 mils, 4600 mils): Symbol Y1 [Crystal_GND24]
 [lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
     ; warning
+    @(2000 mils, 7650 mils): Symbol C19 [C]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(2000 mils, 9350 mils): Symbol C22 [C]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
     @(2100 mils, 1450 mils): Symbol C8 [C]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(2400 mils, 7350 mils): Symbol C20 [C]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(2400 mils, 7950 mils): Symbol C21 [C]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(2400 mils, 9050 mils): Symbol C23 [C]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(2400 mils, 9650 mils): Symbol C24 [C]
 [lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
     ; warning
     @(2500 mils, 1450 mils): Symbol C7 [C]
@@ -151,10 +175,16 @@ Report includes: Errors, Warnings
     @(3700 mils, 1450 mils): Symbol C4 [C]
 [lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
     ; warning
+    @(3800 mils, 7450 mils): Symbol C25 [C]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
     @(4100 mils, 1450 mils): Symbol C3 [C]
 [lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
     ; warning
     @(4500 mils, 1450 mils): Symbol C2 [C]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(4700 mils, 7450 mils): Symbol C26 [C]
 [lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
     ; warning
     @(4900 mils, 1450 mils): Symbol C1 [C]
@@ -163,10 +193,19 @@ Report includes: Errors, Warnings
     @(6700 mils, 1450 mils): Symbol C11 [C]
 [lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
     ; warning
+    @(6900 mils, 7700 mils): Symbol C27 [C]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
     @(7100 mils, 1450 mils): Symbol C12 [C]
 [lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
     ; warning
     @(7500 mils, 1450 mils): Symbol C13 [C]
+[lib_symbol_issues]: Symbol 'TPS7A2033PDBV' not found in symbol library 'Regulator_Linear'
+    ; warning
+    @(7500 mils, 7600 mils): Symbol U5 [TPS7A2033PDBV]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(8100 mils, 7700 mils): Symbol C28 [C]
 [lib_symbol_mismatch]: Symbol 'USB_C_Receptacle_USB2.0_16P' doesn't match copy in library 'Connector'
     ; warning
     @(8500 mils, 3500 mils): Symbol J1 [USB_C_Receptacle_USB2.0_16P]
@@ -195,7 +234,7 @@ Report includes: Errors, Warnings
     ; warning
     @(10900 mils, 1650 mils): Symbol #FLG02 [PWR_FLAG]
 
- ** ERC messages: 64  Errors 30  Warnings 34
+ ** ERC messages: 77  Errors 25  Warnings 52
 
  ** Ignored checks:
     - Global label only appears once in the schematic
