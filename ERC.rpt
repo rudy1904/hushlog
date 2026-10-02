@@ -1,0 +1,204 @@
+ERC report (2026-10-02T16:21:17, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 2350 mils): Symbol U1 Pin 2 [GPIO0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 2450 mils): Symbol U1 Pin 3 [GPIO1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 2550 mils): Symbol U1 Pin 4 [GPIO2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 2650 mils): Symbol U1 Pin 5 [GPIO3, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 2750 mils): Symbol U1 Pin 6 [GPIO4, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 2850 mils): Symbol U1 Pin 7 [GPIO5, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 2950 mils): Symbol U1 Pin 8 [GPIO6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 3050 mils): Symbol U1 Pin 9 [GPIO7, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 3150 mils): Symbol U1 Pin 11 [GPIO8, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 3250 mils): Symbol U1 Pin 12 [GPIO9, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 3350 mils): Symbol U1 Pin 13 [GPIO10, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 3450 mils): Symbol U1 Pin 14 [GPIO11, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 3550 mils): Symbol U1 Pin 15 [GPIO12, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 3650 mils): Symbol U1 Pin 16 [GPIO13, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 3750 mils): Symbol U1 Pin 17 [GPIO14, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 3850 mils): Symbol U1 Pin 18 [GPIO15, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 3950 mils): Symbol U1 Pin 27 [GPIO16, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 4050 mils): Symbol U1 Pin 28 [GPIO17, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 4150 mils): Symbol U1 Pin 29 [GPIO18, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 4250 mils): Symbol U1 Pin 30 [GPIO19, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 4350 mils): Symbol U1 Pin 31 [GPIO20, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 4450 mils): Symbol U1 Pin 32 [GPIO21, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 4550 mils): Symbol U1 Pin 34 [GPIO22, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 4650 mils): Symbol U1 Pin 35 [GPIO23, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 4750 mils): Symbol U1 Pin 36 [GPIO24, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 4850 mils): Symbol U1 Pin 37 [GPIO25, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 5050 mils): Symbol U1 Pin 38 [GPIO26/ADC0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 5150 mils): Symbol U1 Pin 39 [GPIO27/ADC1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 5250 mils): Symbol U1 Pin 40 [GPIO28/ADC2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6800 mils, 5350 mils): Symbol U1 Pin 41 [GPIO29/ADC3, Bidirectional, Line]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(1300 mils, 1450 mils): Symbol C10 [C]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(1500 mils, 4800 mils): Symbol C15 [C]
+[lib_symbol_mismatch]: Symbol 'R' doesn't match copy in library 'Device'
+    ; warning
+    @(1500 mils, 5900 mils): Symbol R6 [R]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(1700 mils, 1450 mils): Symbol C9 [C]
+[lib_symbol_mismatch]: Symbol 'SW_Push' doesn't match copy in library 'Switch'
+    ; warning
+    @(1800 mils, 6100 mils): Symbol SW2 [SW_Push]
+[lib_symbol_mismatch]: Symbol 'W25Q128JVS' doesn't match copy in library 'Memory_Flash'
+    ; warning
+    @(2000 mils, 3000 mils): Symbol U2 [W25Q128JVS]
+[lib_symbol_mismatch]: Symbol 'Crystal_GND24' doesn't match copy in library 'Device'
+    ; warning
+    @(2000 mils, 4600 mils): Symbol Y1 [Crystal_GND24]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(2100 mils, 1450 mils): Symbol C8 [C]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(2500 mils, 1450 mils): Symbol C7 [C]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(2500 mils, 2450 mils): Symbol C14 [C]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(2500 mils, 4800 mils): Symbol C16 [C]
+[lib_symbol_mismatch]: Symbol 'R' doesn't match copy in library 'Device'
+    ; warning
+    @(2800 mils, 4400 mils): Symbol R5 [R]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(2900 mils, 1450 mils): Symbol C6 [C]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(3300 mils, 1450 mils): Symbol C5 [C]
+[lib_symbol_mismatch]: Symbol 'R' doesn't match copy in library 'Device'
+    ; warning
+    @(3300 mils, 2700 mils): Symbol R3 [R]
+[lib_symbol_mismatch]: Symbol 'R' doesn't match copy in library 'Device'
+    ; warning
+    @(3300 mils, 3100 mils): Symbol R4 [R]
+[lib_symbol_mismatch]: Symbol 'Conn_01x03' doesn't match copy in library 'Connector_Generic'
+    ; warning
+    @(3400 mils, 6000 mils): Symbol J2 [Conn_01x03]
+[lib_symbol_mismatch]: Symbol 'SW_Push' doesn't match copy in library 'Switch'
+    ; warning
+    @(3600 mils, 3300 mils): Symbol SW1 [SW_Push]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(3700 mils, 1450 mils): Symbol C4 [C]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(4100 mils, 1450 mils): Symbol C3 [C]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(4500 mils, 1450 mils): Symbol C2 [C]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(4900 mils, 1450 mils): Symbol C1 [C]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(6700 mils, 1450 mils): Symbol C11 [C]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(7100 mils, 1450 mils): Symbol C12 [C]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(7500 mils, 1450 mils): Symbol C13 [C]
+[lib_symbol_mismatch]: Symbol 'USB_C_Receptacle_USB2.0_16P' doesn't match copy in library 'Connector'
+    ; warning
+    @(8500 mils, 3500 mils): Symbol J1 [USB_C_Receptacle_USB2.0_16P]
+[lib_symbol_mismatch]: Symbol 'PWR_FLAG' doesn't match copy in library 'power'
+    ; warning
+    @(8700 mils, 1200 mils): Symbol #FLG01 [PWR_FLAG]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(9200 mils, 1400 mils): Symbol C17 [C]
+[lib_symbol_mismatch]: Symbol 'R' doesn't match copy in library 'Device'
+    ; warning
+    @(10000 mils, 3400 mils): Symbol R2 [R]
+[lib_symbol_mismatch]: Symbol 'R' doesn't match copy in library 'Device'
+    ; warning
+    @(10000 mils, 4500 mils): Symbol R7 [R]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(10400 mils, 1400 mils): Symbol C18 [C]
+[lib_symbol_mismatch]: Symbol 'R' doesn't match copy in library 'Device'
+    ; warning
+    @(10500 mils, 3400 mils): Symbol R1 [R]
+[lib_symbol_mismatch]: Symbol 'R' doesn't match copy in library 'Device'
+    ; warning
+    @(10800 mils, 4500 mils): Symbol R8 [R]
+[lib_symbol_mismatch]: Symbol 'PWR_FLAG' doesn't match copy in library 'power'
+    ; warning
+    @(10900 mils, 1650 mils): Symbol #FLG02 [PWR_FLAG]
+
+ ** ERC messages: 64  Errors 30  Warnings 34
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
