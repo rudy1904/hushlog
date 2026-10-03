@@ -14,7 +14,7 @@ Design in progress for the Hack Club Half Life warm-up (Tier 2).
 
 - [x] RP2040 core schematic — MCU, external QSPI flash, 12 MHz crystal, USB-C + LDO power, BOOTSEL/RESET, SWD. Power rails verified (VREG_VIN confirmed on +3.3V).
 - [x] ADS1220 analog front end — two differential channels, computed input filters, SPI on hardware SPI0, separate low-noise LDO (AVDD isolated from digital rail, verified)
-- [ ] microSD, OLED, screw terminals
+- [x] microSD (SPI1), OLED header (I2C), screw terminals, status LED + UART debug header — ERC clean at 0 errors
 - [ ] PCB layout (2-layer, analog/digital separation, solid ground pour)
 - [ ] Enclosure (3D-printed)
 - [ ] Firmware (RP2040 + ADS1220 + SD logging)
