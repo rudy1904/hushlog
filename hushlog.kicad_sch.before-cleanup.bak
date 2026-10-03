@@ -5255,196 +5255,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "3V3 rail from USB VBUS (5 V).\nAP2112K-3.3: 600 mA, needs 1 uF in and out (C17, C18)."
 		(exclude_from_sim no)
@@ -16498,6 +16308,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 50.8 111.76 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d61d6f13-9179-4373-aaf6-71e598c37856")
+		(property "Reference" "#PWR12"
+			(at 50.8 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e0efda3-7352-4f54-83df-38b0ed545690")
+		)
+		(instances
+			(project "hushlog"
+				(path "/9aed5755-df8d-4b62-a776-73261cc1514e"
+					(reference "#PWR12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 114.3 36.83 0)
 		(unit 1)
@@ -18260,554 +18147,6 @@
 				)
 			)
 		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 193.04 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f8dffd60-2b96-474d-b539-908183a5d268")
-		(property "Reference" "J8"
-			(at 193.04 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UART"
-			(at 193.04 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 193.04 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e0560811-0ac1-40f2-9a6f-d7736adb7a5a")
-		)
-		(pin "2"
-			(uuid "68f3c0b2-a229-4e90-b4e7-20a2f91b99bb")
-		)
-		(pin "3"
-			(uuid "66150449-6f9e-40f2-8802-809aa67f03ba")
-		)
-		(instances
-			(project "hushlog"
-				(path "/9aed5755-df8d-4b62-a776-73261cc1514e"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 172.72 59.69) (xy 187.96 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90e55c23-a66e-473c-accd-d94b59a3df9a")
-	)
-	(label "UART_TX"
-		(at 175.26 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fcb6b414-5a65-4af3-a260-0c3c7cea6026")
-	)
-	(wire
-		(pts
-			(xy 172.72 62.23) (xy 187.96 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "503d92e1-c233-4392-96f0-c1573879ca67")
-	)
-	(label "UART_RX"
-		(at 175.26 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "10a1e3b2-c356-43c9-8b35-4a3d3a7a1789")
-	)
-	(wire
-		(pts
-			(xy 187.96 57.15) (xy 185.42 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d73e2112-7c4c-4fa4-a814-0e5db477e8e0")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 185.42 57.15 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7d330d3d-880a-40f5-824c-9d648e006ecf")
-		(property "Reference" "#PWR43"
-			(at 185.42 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.705 55.88 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e960d8a-34ff-4b05-8e6e-7bb5b5d92031")
-		)
-		(instances
-			(project "hushlog"
-				(path "/9aed5755-df8d-4b62-a776-73261cc1514e"
-					(reference "#PWR43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 172.72 123.19) (xy 175.26 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "457c5fd9-2a1c-4396-b7e9-14242f66ed63")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 179.07 123.19 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a59fff6c-19c1-4881-9777-ea64c9cf290d")
-		(property "Reference" "R20"
-			(at 176.53 120.904 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 181.61 120.904 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 179.07 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "56aac71d-1cdd-48b2-be84-0b44dcdd878e")
-		)
-		(pin "2"
-			(uuid "b1383c8f-5364-478b-b884-e34fe84f6719")
-		)
-		(instances
-			(project "hushlog"
-				(path "/9aed5755-df8d-4b62-a776-73261cc1514e"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 182.88 123.19) (xy 185.42 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92fa1b61-e278-4615-b337-2039be91c08c")
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 189.23 123.19 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "95c281bd-19ac-4629-a526-84fe87ddb287")
-		(property "Reference" "D1"
-			(at 189.23 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 189.23 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 189.23 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6985bc82-0569-49b0-ac22-ae6f56b7fb66")
-		)
-		(pin "2"
-			(uuid "5e62c4c8-59b9-4fb6-bd66-87ca846dd654")
-		)
-		(instances
-			(project "hushlog"
-				(path "/9aed5755-df8d-4b62-a776-73261cc1514e"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 193.04 123.19) (xy 195.58 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f20b389-fdb5-4aab-bad8-170200ecd294")
-	)
-	(wire
-		(pts
-			(xy 195.58 123.19) (xy 195.58 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fef6f779-a715-455c-b51d-f72134f8940d")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 195.58 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e26efe1a-c076-4c64-a31c-fe73021ef5eb")
-		(property "Reference" "#PWR44"
-			(at 195.58 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 195.58 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "342c0d7b-38e7-4e0e-8207-3ebadc454a3e")
-		)
-		(instances
-			(project "hushlog"
-				(path "/9aed5755-df8d-4b62-a776-73261cc1514e"
-					(reference "#PWR44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(no_connect
-		(at 172.72 77.47)
-		(uuid "6127c63b-433f-4ac7-93af-d050d4e2138f")
-	)
-	(no_connect
-		(at 172.72 80.01)
-		(uuid "29e29a92-e4b3-412f-af9a-abf4cffc6c15")
-	)
-	(no_connect
-		(at 172.72 82.55)
-		(uuid "36592646-fd54-4e9a-b58d-78f9f67e97a7")
-	)
-	(no_connect
-		(at 172.72 100.33)
-		(uuid "25c124fb-9ff5-474d-8b66-3dda3462b425")
-	)
-	(no_connect
-		(at 172.72 102.87)
-		(uuid "4e824aa1-438f-498c-8a7d-9319585be681")
-	)
-	(no_connect
-		(at 172.72 105.41)
-		(uuid "36c92a27-afef-4918-8113-b108f336fb40")
-	)
-	(no_connect
-		(at 172.72 107.95)
-		(uuid "69f2b260-6478-4f78-a241-78c1df120b46")
-	)
-	(no_connect
-		(at 172.72 110.49)
-		(uuid "55bc5cbe-421a-4851-b6a0-fccbb42dfdec")
-	)
-	(no_connect
-		(at 172.72 113.03)
-		(uuid "02cdf81e-5d86-4dde-b8c3-737528d72812")
-	)
-	(no_connect
-		(at 172.72 115.57)
-		(uuid "ef7f96ea-5c2e-42a7-9110-b0b705291b79")
-	)
-	(no_connect
-		(at 172.72 118.11)
-		(uuid "1ad07f21-b643-4f6c-b6d2-0ae372bf7134")
-	)
-	(no_connect
-		(at 172.72 120.65)
-		(uuid "5c0c758b-415f-42f6-979b-a139b28c7677")
-	)
-	(no_connect
-		(at 172.72 128.27)
-		(uuid "820b4ac5-e9f8-403b-993b-3ce70fdf42f8")
-	)
-	(no_connect
-		(at 172.72 130.81)
-		(uuid "53aa1ff8-e632-4022-af2a-36c9a071bc4d")
-	)
-	(no_connect
-		(at 172.72 133.35)
-		(uuid "0c01ae9a-21df-4bf9-8ffe-485a01f63740")
-	)
-	(no_connect
-		(at 172.72 135.89)
-		(uuid "5d073bfd-b475-4a45-9cc9-9ca08ab40e3e")
 	)
 	(sheet_instances
 		(path "/"
