@@ -8,14 +8,16 @@ The thing I actually care about is keeping it **quiet**: a separate low-noise su
 
 ![RP2040 core schematic](docs/schematic.png)
 
+![PCB, top copper and silkscreen](docs/pcb-top.png)
+
 ## Status
 
 Design in progress for the Hack Club Half Life warm-up (Tier 2).
 
 - [x] RP2040 core schematic — MCU, external QSPI flash, 12 MHz crystal, USB-C + LDO power, BOOTSEL/RESET, SWD. Power rails verified (VREG_VIN confirmed on +3.3V).
 - [x] ADS1220 analog front end — two differential channels, computed input filters, SPI on hardware SPI0, separate low-noise LDO (AVDD isolated from digital rail, verified)
-- [ ] microSD, OLED, screw terminals
-- [ ] PCB layout (2-layer, analog/digital separation, solid ground pour)
+- [x] microSD (SPI1), OLED header (I2C1), screw terminals, status LED, UART header
+- [x] PCB layout — 80 × 60 mm, 2 layers, analog/digital split, ground pour on both sides. Passes DRC with 0 errors and 0 unrouted nets in KiCad 7's DRC engine; still to be re-checked in KiCad 10 before ordering.
 - [ ] Enclosure (3D-printed)
 - [ ] Firmware (RP2040 + ADS1220 + SD logging)
 
@@ -25,6 +27,17 @@ Design in progress for the Hack Club Half Life warm-up (Tier 2).
 - **External QSPI flash (W25Q128)** — the RP2040 has no internal flash.
 - **Separate analog supply** — the ADC gets its own low-noise LDO so RP2040 switching noise doesn't couple into the measurement.
 - **2-layer board** — kept deliberately simple for a first build; no need for 4 layers at these speeds.
+
+## PCB
+
+- 80 × 60 mm, 2 layers, four M3 mounting holes. Minimum track and gap 0.2 / 0.15 mm, vias 0.6 / 0.3 mm.
+- Digital on the left (RP2040, flash, USB-C, microSD, OLED header), analog on the right (ADS1220, input filters, screw terminals, analog LDO).
+- The bottom layer under the analog section is unbroken ground: a rule area forbids bottom-layer tracks there, so nothing can cut the plane under the ADC or the input filters.
+- The 5 V feed for the analog LDO runs around the board edge and passes under the microSD socket, where no signal crosses the gap it leaves in the plane. It never enters the input-filter area.
+- Input pairs: J3 = IN_A (pin 1 AIN1, pin 2 AIN0), J4 = IN_B (pin 1 AIN3, pin 2 AIN2), J5 = ground. MUX settings 0110 and 0111 make pin 1 the positive input.
+- Fabrication files are in `fab/` (Gerbers, drill, placement, parts list).
+
+![PCB routing, both layers](docs/pcb-routing.png)
 
 ## Hardware
 

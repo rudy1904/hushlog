@@ -1,0 +1,30 @@
+References,Qty,Value,Footprint,Part,Manufacturer,LCSC (unverified),Unit price,Notes
+C1 C11 C17 C18 C27 C28,6,1uF,C_0603_1608Metric,1uF 0603 capacitor,,,,"X7R, 10 V or more (C17/C27 sit on 5 V VBUS)"
+C2 C3 C4 C5 C6 C7 C8 C9 C12 C13 C14 C19 C22 C25 C26 C29,16,100nF,C_0603_1608Metric,100nF 0603 capacitor,,,,X7R; C19/C22 (across the input pairs) are better as C0G/NP0 or film if the budget allows
+C10 C30,2,10uF,C_0805_2012Metric,10uF 0805 capacitor,,,,"X5R/X7R, 10 V or more"
+C15 C16,2,15pF,C_0603_1608Metric,15pF 0603 capacitor,,,,crystal load: C0G/NP0
+C20 C21 C23 C24,4,10nF,C_0603_1608Metric,10nF 0603 capacitor,,,,input common-mode filter: use C0G/NP0
+D1,1,LED,LED_0805_2012Metric,0805 green LED,,,,
+J1,1,USB_C_Receptacle_USB2.0_16P,USB_C_Receptacle_HRO_TYPE-C-31-M-12,TYPE-C-31-M-12,Korean Hroparts,C165948,,16-pin USB 2.0 receptacle
+J2,1,SWD,PinHeader_1x03_P2.54mm_Vertical,1x3 2.54 mm header,,,,
+J3,1,IN_A,TerminalBlock_bornier-2_P5.08mm,2-way 5.08 mm screw terminal,,,,
+J4,1,IN_B,TerminalBlock_bornier-2_P5.08mm,2-way 5.08 mm screw terminal,,,,
+J5,1,GND,TerminalBlock_bornier-2_P5.08mm,2-way 5.08 mm screw terminal,,,,
+J6,1,Micro_SD_Card,microSD_HC_Hirose_DM3AT-SF-PEJM5,DM3AT-SF-PEJM5,Hirose,C114218,,push-push; footprint is for this exact part
+J7,1,OLED,PinHeader_1x04_P2.54mm_Vertical,1x4 2.54 mm header (or socket),,,,"for a 0.96 in SSD1306 I2C module, pin order GND-VCC-SCL-SDA"
+J8,1,UART,PinHeader_1x03_P2.54mm_Vertical,1x3 2.54 mm header,,,,
+R1 R2,2,5.1k,R_0603_1608Metric,5.1k 0603 resistor 1%,,,,
+R3 R6 R13 R14 R15 R16 R17,7,10k,R_0603_1608Metric,10k 0603 resistor 1%,,,,
+R4 R5 R9 R10 R11 R12 R20,7,1k,R_0603_1608Metric,1k 0603 resistor 1%,,,,
+R7 R8,2,27R,R_0603_1608Metric,27R 0603 resistor 1%,,,,
+R18 R19,2,4.7k,R_0603_1608Metric,4.7k 0603 resistor 1%,,,,
+SW1,1,BOOTSEL,SW_Push_1P1T_XKB_TS-1187A,TS-1187A-B-A-B,XKB,C318884,,tactile switch 5.1x5.1 mm
+SW2,1,RESET,SW_Push_1P1T_XKB_TS-1187A,TS-1187A-B-A-B,XKB,C318884,,tactile switch 5.1x5.1 mm
+U1,1,RP2040,QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm,RP2040,Raspberry Pi,C2040,,
+U2,1,W25Q128JVS,SOIC-8_5.3x5.3mm_P1.27mm,W25Q128JVSIQ,Winbond,C97521,,SOIC-8 208 mil
+U3,1,AP2112K-3.3,SOT-23-5,AP2112K-3.3TRG1,Diodes Inc.,C51118,,
+U4,1,ADS1220IPW,TSSOP-16_4.4x5mm_P0.65mm,ADS1220IPWR,Texas Instruments,,,TSSOP-16
+U5,1,TPS7A2033PDBV,SOT-23-5,TPS7A2033PDBVR,Texas Instruments,,,3.3 V low-noise LDO
+Y1,1,12MHz,Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm,ABM8-272-T3,Abracon,,,"12 MHz, CL 10 pF, 3.2x2.5 mm; recalculate C15/C16 for any other crystal"
+(not on the board),1,OLED module,,0.96 in SSD1306 I2C module,,,,check its pin order against J7
+(not on the board),1,PCB,,"80 x 60 mm, 2 layers, 1.6 mm",,,,
