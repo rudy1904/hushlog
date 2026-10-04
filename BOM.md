@@ -29,7 +29,7 @@
 | [Capacitors 0603/0805 (100nF, 1µF, 10µF, 15pF, 10nF), C14663](https://lcsc.com/product-detail/C14663.html) | Decoupling, filtering, crystal load | 50 | $0.01 | $0.50 | [LCSC](https://lcsc.com/product-detail/C14663.html) |
 | [PCB 80×60mm 2-layer](https://jlcpcb.com) | The board itself (5 pcs) | 1 | $4.00 | $4.00 | [JLCPCB](https://jlcpcb.com) |
 | **Parts subtotal** | — | — | — | **$18.65** | — |
-| **Tax & shipping** | — | — | — | **$30.00** | — |
-| **Total** | — | — | — | **$48.65** | — |
+| **Tax & shipping** | — | — | — | **$45.03** | — |
+| **Total** | — | — | — | **$63.68** | — |
 
-$16.35 left of the tier's funding.
+$1.32 left of the tier's funding.
