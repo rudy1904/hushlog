@@ -17,6 +17,8 @@ this repo, good or bad.
 
 ![Hushlog board](docs/pcb-top.png)
 
+![Schematic](docs/schematic.png)
+
 ## Repo layout
 
 | Folder | What's in it |
@@ -36,6 +38,8 @@ Design complete for the Hack Club Half Life warm-up (Tier 2).
       filters, SPI0, separate low-noise LDO (AVDD isolated from the digital rail)
 - [x] microSD (SPI1), OLED header (I2C1), status LED, UART debug header
 - [x] PCB layout - 2-layer, analog/digital split, solid ground pour under the ADC
+
+![PCB routing](docs/pcb-routing.png)
 - [x] Test firmware - brings up ADC, SD, OLED, LED and UART
 - [ ] Noise-floor measurement on real hardware
 
