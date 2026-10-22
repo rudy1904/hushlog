@@ -1,0 +1,13 @@
+# KiCad backups and autosave
+*.bak
+*-bak/
+_autosave-*
+fp-info-cache
+*.lck
+~*.lck
+
+# VS Code local history
+.history/
+
+# PlatformIO build output
+firmware/.pio/
